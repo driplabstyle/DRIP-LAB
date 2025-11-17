@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DRIP LAB - Personal Stylist de IA</title>
-    <!-- LINHA CORRIGIDA ABAIXO -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- LINHA CORRIGIDA ABAIXO -->
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
     <style>
         :root {
             --black: #000;
@@ -529,11 +529,5 @@
         .modal-overlay.active { display: flex; opacity: 1; }
         .modal-content {
             background: var(--dark-gray); 
-            border-radius: 16px;
-            width: 90%; max-width: 500px;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
-            transform: scale(0.9); transition: transform 0.3s ease;
-        }
-        .modal-overlay.active .modal-content { transform: scale
+
+        
