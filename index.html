@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DRIP LAB - Personal Stylist de IA</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- LINHA CORRIGIDA ABAIXO -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
@@ -535,27 +536,4 @@
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
             transform: scale(0.9); transition: transform 0.3s ease;
         }
-        .modal-overlay.active .modal-content { transform: scale(1); }
-        .modal-close { position: absolute; top: 15px; right: 15px; background: rgba(0,0,0,0.5); border: none; color: var(--white); font-size: 24px; cursor: pointer; z-index: 10; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center;}
-        
-        .modal-form-side {
-            padding: 40px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .modal-logo {
-            font-size: 28px;
-            font-weight: 900;
-            text-align: center;
-            margin-bottom: 10px;
-            background: var(--gradient-neon);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            text-transform: uppercase;
-        }
-
-        .modal-title { font-size: 1.8rem; font-weight: 700; margin-bottom: 5px; text-align: center; }
-        .modal-subtitle { text-align: center; color: rgba(255, 2
+        .modal-overlay.active .modal-content { transform: scale
